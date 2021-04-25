@@ -1,0 +1,59 @@
+body{
+    background-color: #f4f9f4 !important;
+}
+
+#backgroudHeroLogin{
+    background-color: #016779;
+    padding: 4% 3%;
+}
+
+#backgroundHeroForm{
+    background-color: #0fcec4c5;
+}
+
+#formLoginLayout{
+    padding: 28% 15%;
+}
+
+.inputGroupLogin{
+    margin-bottom: 8%;
+}
+
+.boxIconLogin{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    background-color: #62d2a2;
+    border-width: "0px"; 
+}
+
+.fieldLogin{
+    border-radius: 0px 5px 5px 0px;
+
+    padding: 2% 0;
+    border-width: 0px !important;
+    text-align: center;
+}
+
+#buttonLogin{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    padding: 2% 0;
+    background-color: #016779;
+    width: 100%;
+    border-width: 0px !important;
+}
+
+#buttonLogin:hover{
+    background-color: #51adcf;
+    color: white;
+}
+
+.fontHeroStyle{
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    margin: 0px !important;
+    font-size: 60px;
+    color: white;
+}

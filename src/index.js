@@ -1,17 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import { BrowserRouter } from 'react-router-dom'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+//#region Redux
+  // Import Create Store
+  import { createStore} from 'redux'
+  // Import Provider
+  import { Provider } from 'react-redux'
+  // Import Combined Reducers
+  import allReducers from './reducer'
+
+  // make variable for createStore
+  const globalState = createStore(allReducers)
+
+  // subscribe variabel global state for console.log each time we call the react
+  globalState.subscribe(() => {
+    console.log("Global State : ", globalState.getState())
+  })
+//#endregion
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={globalState}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

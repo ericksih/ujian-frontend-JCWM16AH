@@ -1,0 +1,63 @@
+#backgroudHeroRegister{
+    padding: 5% 3%;
+    background-color: #0fcec4c5;
+}
+
+#backgroundHeroFormRegister{
+    background-color: #016779;
+}
+
+#formRegisterLayout{
+    padding: 20% 15%;
+}
+
+.inputGroupRegister{
+    margin-bottom: 5%;
+}
+
+.boxIconRegister{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    background-color: #0fcec4c5;
+    border-width: "0px"; 
+}
+
+.fieldRegister{
+    color: #1fab89 !important;
+    padding: 2% 0;
+    border-width: 0px !important;
+    text-align: center;
+}
+
+#buttonRegister{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    padding: 2% 0;
+    background-color: #0fcec4c5;
+    width: 100%;
+    border-width: 0px !important;
+}
+
+#buttonRegister:hover{
+    background-color: #51adcf;
+    color: white;
+}
+
+#fontHeroStyleRegister{
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    margin: 0px !important;
+    font-size: 60px;
+    color: white;
+}
+
+#fontHeroStyleRegister2{
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    margin: 0px !important;
+    font-size: 35px;
+    color: white;
+}
